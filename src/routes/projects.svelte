@@ -1,5 +1,6 @@
 <script>
   import { projects } from "$lib/projects";
+
 </script>
 
 <h1>Projects</h1>
