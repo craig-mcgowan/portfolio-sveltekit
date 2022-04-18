@@ -14,20 +14,20 @@
 
 Get In Touch with me!
 
-<form on:submit|preventDefault={handleSubmit} class = "bg-white flex flex-column justify-center text-black w-min ">
+<form on:submit|preventDefault={handleSubmit} class = "bg-white flex flex-column justify-center text-black w-min shadow rounded-xl p-3 ">
   <div>
     <label>Name:
-      <input type="text" bind:value={formData.name} class="border" />
+      <input type="text" bind:value={formData.name} class="border rounded border-black shadow " />
     </label>
   </div>
   <div>
     <label>Email:
-      <input type="email" bind:value={formData.email} class="border"/>
+      <input type="email" bind:value={formData.email} class="border rounded border-black shadow "/>
     </label>
   </div>
   <div>
     <label>Message:
-      <textarea bind:value={formData.message} class = "border"/>
+      <textarea bind:value={formData.message} class = "border rounded border-black shadow "/>
     </label>
   </div>
   <button type="submit" class= "rounded-lg border-2 border-teal-800 bg-teal-500 text-white h-min px-2 py-1 ">Submit</button>
