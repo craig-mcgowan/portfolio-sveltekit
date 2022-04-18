@@ -12,9 +12,9 @@
 
 </script>
 
-<form on:submit|preventDefault={handleSubmit}>
+<form on:submit|preventDefault={handleSubmit} class = "bg-white flex flex-column justify-center text-black w-min ">
   <div>
-    <label>name
+    <label>Name:
       <input type="text" bind:value={formData.name} class="border" />
     </label>
   </div>
