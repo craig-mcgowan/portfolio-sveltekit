@@ -5,7 +5,7 @@
      <header class= "flex w-full justify-between bg-black text-white h-12">
         <div class = "p-2">
             <span>Craig</span>
-            McGowan
+            <span>McGowan</span>
         </div>
         <nav class="flex justify-around w-max">
           <li class="list-none px-4 py-2 hover:text-lg cursor-pointer" on:click= {()=>goto("/")}>About</li>
