@@ -30,5 +30,5 @@ Get In Touch with me!
       <textarea bind:value={formData.message} class = "border"/>
     </label>
   </div>
-  <button type="submit">Submit</button>
+  <button type="submit" class= "rounded-lg border-2 border-teal-800 bg-teal-500 text-white h-min px-2 py-1 ">Submit</button>
 </form>
