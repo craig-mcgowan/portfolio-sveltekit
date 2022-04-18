@@ -12,6 +12,8 @@
 
 </script>
 
+Get In Touch with me!
+
 <form on:submit|preventDefault={handleSubmit} class = "bg-white flex flex-column justify-center text-black w-min ">
   <div>
     <label>Name:
@@ -19,12 +21,12 @@
     </label>
   </div>
   <div>
-    <label>email
+    <label>Email:
       <input type="email" bind:value={formData.email} class="border"/>
     </label>
   </div>
   <div>
-    <label>message
+    <label>Message:
       <textarea bind:value={formData.message} class = "border"/>
     </label>
   </div>
