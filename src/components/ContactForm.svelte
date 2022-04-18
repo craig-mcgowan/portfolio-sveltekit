@@ -14,7 +14,7 @@
 
 Get In Touch with me!
 
-<form on:submit|preventDefault={handleSubmit} class = "bg-white flex flex-column justify-center text-black w-min shadow rounded-xl p-3 ">
+<form on:submit|preventDefault={handleSubmit} class = "bg-white flex flex-col justify-center text-black w-max shadow rounded-xl py-3 px-8 ">
   <div>
     <label>Name:
       <input type="text" bind:value={formData.name} class="border rounded border-black shadow " />
