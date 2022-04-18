@@ -4,7 +4,7 @@
      
      <header class= "flex w-full justify-between bg-black text-white h-12">
         <div class = "p-2">
-            Craig
+            <span>Craig</span>
             McGowan
         </div>
         <nav class="flex justify-around w-max">
